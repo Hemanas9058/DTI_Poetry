@@ -11,7 +11,7 @@
     <meta name="keywords" content="Poetry, computer generated, free verse, haiku, limerick, acrostic, project">
     <meta name="author" content="Shawn Hemana">
     
-    <title>Poetry Project</title>
+    <title>The Poetry Project</title>
     
     <!-- link to css goes here -->
     <link href="css/poetry_style.css" rel="stylesheet">
@@ -29,7 +29,7 @@
     <div class="wrapper">
 
         <header class="box">
-            <h1>Poetry Project</h1>
+            <h1>The Poetry Project</h1>
         </header>
 
         <nav class="box">
