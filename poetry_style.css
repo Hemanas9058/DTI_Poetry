@@ -7,34 +7,45 @@ body{
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns: 300px 2fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-        "header header"
-        "nav nav"
-        "main aside"
-        "footer footer";
+        "header header header"
+        "nav nav nav"
+        "main main aside"
+        "footer footer footer";
     grid-gap: 4px;
 }
 
 header {
     grid-area: header;
+    background-color: #4e4032; /* --- dark brown --- */
+    color: white;
 }
 
 nav {
     grid-area: nav;
+    background-color: #b3a48b; /* --- light brown --- */
+    color: black;
 }
 
 main {
     grid-area: main;
+    background-color: #d5c5af; /* --- beige --- */
+    color: black;
 }
 
 aside {
     grid-area: aside;
+    background-color: #b3a48b; /* --- dark brown --- */
+    color: black;
 }
 
 footer {
     grid-area: footer;
+    background-color: #4e4032; /* --- dark brown --- */
+    color: white;
+    text-align: right;
 }
 
 /* ---- General formatting --- */
@@ -43,7 +54,6 @@ footer {
 .box {
     padding: 20px;
     border-radius: 10px;
-    background-color:#ddd;
 }
 
 h1, h2, h3 {
