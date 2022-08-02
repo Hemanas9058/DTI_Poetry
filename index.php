@@ -37,7 +37,7 @@
             <a class="dropbtn" href="index.php">Home</a> |
 
             <div class="dropdown">
-                <button class="dropbtn"><u>Poetry</u></button>
+                <button class="dropbtn">Poetry</button>
                 <div class="dropdown-content">
                     <a href="#">Free Verse</a>
                     <a href="#">Haiku</a>

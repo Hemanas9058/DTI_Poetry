@@ -64,11 +64,23 @@ h1 {
     font-size: 300%;
 }
 
+/* --- Link Formatting --- */
+
+/* Links in the main section & sidebar */
+a:link{color: black;}
+a:visited{color: lavender;}
+a:hover{color: white;}
+
+/* Top Navigation */
+nav a{text-decoration: none;}
+nav a:link, nav a:visited {color: black;}
+nav a:hover {color: white;}
+
 /* ---- Drop Down Menu ---- */
 /* Style The Dropdown Button */
 .dropbtn {
-      background-color: #a8977a;
-      color: black;   /* very dark green */
+      background-color: #a8977a;    /* light brown */
+      color: black;
       padding: 16px;
       font-size: 16px;
       border: none;
