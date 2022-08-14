@@ -29,7 +29,12 @@
     <div class="wrapper">
 
         <header class="box">
+
+            <img class="roundleft" src="images/caligraphy.jpg"
+            alt="old style pen and book" width="134" height="84" />
+
             <h1>The Poetry Project</h1>
+
         </header>
 
         <nav class="box">
@@ -45,8 +50,6 @@
                     <a href="#">Acrostic</a>
                 </div>  <!-- / end of dropdown-content -->
             </div>  <!-- / dropdown -->
-
-            |
 
             <a class="dropbtn" href="sources.php">Sources</a> |
             <a class="dropbtn" href="contact.php">Contact</a> 

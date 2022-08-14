@@ -21,6 +21,10 @@ header {
     grid-area: header;
     background-color: #4e4032; /* --- dark brown --- */
     color: white;
+	padding: 5px;
+	border-radius: 10px;
+
+    height:84px;
 }
 
 nav {
@@ -51,7 +55,7 @@ footer {
 /* ---- General formatting --- */
 
 
-.box {
+nav, main, aside, footer {
     padding: 20px;
     border-radius: 10px;
 }
@@ -62,6 +66,22 @@ h1, h2, h3 {
 
 h1 {
     font-size: 300%;
+    padding-left: 150px;
+    margin:auto;
+
+    /*-- Transform to vertically center heading */
+    position:relative;
+    top: 50px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+
+}
+
+img.roundleft{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float:left;
 }
 
 /* --- Link Formatting --- */
